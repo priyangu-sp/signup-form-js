@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <title>Signup & Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+
+        <main>
+
+            <h2>Signup</h2>
+            <form id="signup">
+                
+                <fieldset>
+                    <fieldset>
+                        <label for="username">Username</label>
+                        <input id="username" type="text">
+                    </fieldset>
+        
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email">
+                    </fieldset>
+        
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password">
+                    </fieldset>
+                </fieldset>
+                
+                <button type="submit">Sign Up</button>
+            
+            </form>
+            
+            <section>
+
+                <h2>Dashboard</h2>
+                <table id="userTable">
+                    
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody id="userTablebody"></tbody>
+                
+                </table>
+            
+            </section>
+        
+        </main>
+        
+        <script src="script.js"></script>
+    
+    </body>
+    
+</html>
